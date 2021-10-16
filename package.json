@@ -20,22 +20,27 @@
     "build": "tsc && vite build",
     "test": "exit 0",
     "serve": "vite preview",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "commit": "commit"
   },
   "dependencies": {
     "react": "^17.0.0",
     "react-dom": "^17.0.0"
   },
   "devDependencies": {
+    "@commitlint/cli": "^13.2.1",
+    "@commitlint/config-conventional": "^13.2.0",
+    "@commitlint/prompt-cli": "^13.2.1",
     "@honkhonk/vite-plugin-svgr": "^1.1.0",
     "@types/node": "^16.11.0",
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
     "@vitejs/plugin-react": "^1.0.4",
     "autoprefixer": "^10.3.7",
+    "cz": "^1.8.2",
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",
-    "husky": "^7.0.0",
+    "husky": "^7.0.2",
     "lint-staged": "^11.2.3",
     "postcss": "^8.3.9",
     "prettier": "2.4.1",
