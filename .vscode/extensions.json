@@ -1,10 +1,10 @@
 {
-    "recommendations": [
-        "dbaeumer.vscode-eslint",
-        "esbenp.prettier-vscode",
-        "csstools.postcss",
-        "bradlc.vscode-tailwindcss",
-        "orta.vscode-jest",
-        "editorconfig.editorconfig"
-    ]
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "csstools.postcss",
+    "bradlc.vscode-tailwindcss",
+    "orta.vscode-jest",
+    "editorconfig.editorconfig"
+  ]
 }
