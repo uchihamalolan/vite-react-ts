@@ -2,7 +2,7 @@
 
 ### Usage (with [degit](https://github.com/Rich-Harris/degit))
 ```bash
-degit uchihamalolan/vite-react-heisenberg your-app-name
+degit uchihamalolan/vite-react-ts your-app-name
 ```
 
 ### Overview
