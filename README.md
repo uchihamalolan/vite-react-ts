@@ -7,11 +7,13 @@ degit uchihamalolan/vite-react-ts your-app-name
 
 ### Overview
 - Vite
-- env-cmd
 - React - Typscript
   - react-error-boundary
 - pnpm
+
+### Editor Config
 - vscode settings & extension recommendations
+- `.editorconfig` file
 
 ### Git Hooks
 - Husky & Lint Staged
@@ -24,7 +26,7 @@ degit uchihamalolan/vite-react-ts your-app-name
 - Jest + React Testing Library (plus some plugins)
 
 ### Styling
-- TailwindCSS with JIT
+- TailwindCSS with JIT enabled
 
 ---
 
@@ -55,10 +57,6 @@ degit uchihamalolan/vite-react-ts your-app-name
 - Ky
 - Axios
 
-### Jest Plugins
-- [user-event](https://testing-library.com/docs/ecosystem-user-event/)
-- [jest-dom](https://testing-library.com/docs/ecosystem-jest-dom/)
-  - [eslint-plugin-jest-dom](https://testing-library.com/docs/ecosystem-eslint-plugin-jest-dom)
-
-### Additional Eslint Plugins
-- [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint/tree/master/packages/eslint-plugin)
+<!-- ### Eslint Plugins
+- [eslint-plugin-jest-dom](https://testing-library.com/docs/ecosystem-eslint-plugin-jest-dom)
+- [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint/tree/master/packages/eslint-plugin) -->

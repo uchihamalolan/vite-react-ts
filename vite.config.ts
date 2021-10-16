@@ -1,9 +1,22 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import tsconfigPaths from "vite-tsconfig-paths";
-import svgr from "@honkhonk/vite-plugin-svgr";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react(), tsconfigPaths(), svgr()],
+  envDir: "./env",
+  plugins: [react(), tsconfigPaths()],
+  css: {
+    postcss: "."
+  },
+  /* If proxy is needed
+  server: {
+    proxy: {
+      "/api": "localhost:8080"
+    }
+  },
+  */
+  build: {
+    sourcemap: true
+  }
 });
