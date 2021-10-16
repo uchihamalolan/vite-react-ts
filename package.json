@@ -1,6 +1,20 @@
 {
   "name": "vite-react-ts",
   "version": "0.0.0",
+  "description": "Your App Description",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uchihamalolan/vite-react-ts.git"
+  },
+  "keywords": [
+    "vite",
+    "react",
+    "starter",
+    "template"
+  ],
+  "author": "Malolan B. <uchihamalolan@gmail.com> (https://twitter.com/malolan12)",
+  "license": "MIT",
+  "homepage": "https://github.com/uchihamalolan/vite-react-ts",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
