@@ -5,7 +5,6 @@
         "csstools.postcss",
         "bradlc.vscode-tailwindcss",
         "orta.vscode-jest",
-        "editorconfig.editorconfig",
-        "joshbolduc.commitlint"
+        "editorconfig.editorconfig"
     ]
 }
