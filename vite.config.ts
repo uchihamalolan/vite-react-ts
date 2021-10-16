@@ -6,9 +6,6 @@ import tsconfigPaths from 'vite-tsconfig-paths';
 export default defineConfig({
   envDir: './env',
   plugins: [react(), tsconfigPaths()],
-  css: {
-    postcss: '.',
-  },
   /* If proxy is needed
   server: {
     proxy: {
