@@ -10,7 +10,6 @@ specifiers:
   '@types/react-dom': ^17.0.0
   '@vitejs/plugin-react': ^1.0.4
   autoprefixer: ^10.3.7
-  cz: ^1.8.2
   eslint: ^7.32.0
   eslint-config-prettier: ^8.3.0
   husky: ^7.0.2
@@ -38,7 +37,6 @@ devDependencies:
   '@types/react-dom': 17.0.9
   '@vitejs/plugin-react': 1.0.4
   autoprefixer: 10.3.7_postcss@8.3.9
-  cz: 1.8.2
   eslint: 7.32.0
   eslint-config-prettier: 8.3.0_eslint@7.32.0
   husky: 7.0.2
@@ -1214,13 +1212,6 @@ packages:
     resolution: {integrity: sha512-rpw6JPxK6Rfg1zLOYCSwle2GFOOsnjmDYDaBwEcwoOg4qlsIVCN789VkBZDJAGi4T07gI4YSutR43t9Zz4Lzuw==}
     dev: true
 
-  /cz/1.8.2:
-    resolution: {integrity: sha1-ysbz37+pAPnwIsNSXD6Fwti0urM=}
-    dependencies:
-      if-env: 1.0.4
-      lodash: 4.17.21
-    dev: true
-
   /dargs/7.0.0:
     resolution: {integrity: sha512-2iy1EkLdlBzQGvbweYRFxmFath8+K7+AKB0TlhHWkNuH+TmovaMH/Wp7V7R4u7f4SnX3OgLsU9t1NI9ioDnUpg==}
     engines: {node: '>=8'}
@@ -1307,10 +1298,6 @@ packages:
     engines: {node: '>=8'}
     dependencies:
       is-obj: 2.0.0
-    dev: true
-
-  /duplexer/0.1.2:
-    resolution: {integrity: sha512-jtD6YG370ZCIi/9GTaJKQxWTZD045+4R4hTk/x1UyoqadyJ9x9CgSi1RlVDQF8U2sxLLSnFkCaMihqljHIWgMg==}
     dev: true
 
   /electron-to-chromium/1.3.871:
@@ -1640,18 +1627,6 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /event-stream/3.3.4:
-    resolution: {integrity: sha1-SrTJoPWlTbkzi0w02Gv86PSzVXE=}
-    dependencies:
-      duplexer: 0.1.2
-      from: 0.1.7
-      map-stream: 0.1.0
-      pause-stream: 0.0.11
-      split: 0.3.3
-      stream-combiner: 0.0.4
-      through: 2.3.8
-    dev: true
-
   /execa/5.1.1:
     resolution: {integrity: sha512-8uSpZZocAZRBAPIEINJj3Lo9HyGitllczc27Eh5YYojjMFMn8yHMDMaUHE2Jqfq05D/wucwI4JGURyXt1vchyg==}
     engines: {node: '>=10'}
@@ -1753,10 +1728,6 @@ packages:
 
   /fraction.js/4.1.1:
     resolution: {integrity: sha512-MHOhvvxHTfRFpF1geTK9czMIZ6xclsEor2wkIGYYq+PxcQqT7vStJqjhe6S1TenZrMZzo+wlqOufBDVepUEgPg==}
-    dev: true
-
-  /from/0.1.7:
-    resolution: {integrity: sha1-g8YK/Fi5xWmXAH7Rp2izqzA6RP4=}
     dev: true
 
   /fs-extra/10.0.0:
@@ -1941,13 +1912,6 @@ packages:
     resolution: {integrity: sha512-8yKEWNX4z2YsofXAMT7KvA1g8p+GxtB1ffV8XtpAEGuXNAbCV5wdNKH+qTpw8SM9fh4aMPDR+yQuKfgnreyZlg==}
     engines: {node: '>=12'}
     hasBin: true
-    dev: true
-
-  /if-env/1.0.4:
-    resolution: {integrity: sha1-iytr0wivhqOhm7JzQmdhCFEEh4s=}
-    hasBin: true
-    dependencies:
-      npm-run-all: 1.4.0
     dev: true
 
   /ignore/4.0.6:
@@ -2328,10 +2292,6 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /map-stream/0.1.0:
-    resolution: {integrity: sha1-5WqpTEyAVaFkBKBnS3jyFffI4ZQ=}
-    dev: true
-
   /meow/8.1.2:
     resolution: {integrity: sha512-r85E3NdZ+mpYk1C6RjPFEMSE+s1iZMuHtsHAqY0DT3jZczl0diWUZ8g6oU7h0M9cD2EL+PzaYghhCLzR0ZNn5Q==}
     engines: {node: '>=10'}
@@ -2460,17 +2420,6 @@ packages:
   /normalize-range/0.1.2:
     resolution: {integrity: sha1-LRDAa9/TEuqXd2laTShDlFa3WUI=}
     engines: {node: '>=0.10.0'}
-    dev: true
-
-  /npm-run-all/1.4.0:
-    resolution: {integrity: sha1-pGm7n+q+W/OqmRaDO69ndlguiUg=}
-    hasBin: true
-    dependencies:
-      babel-polyfill: 6.26.0
-      minimatch: 3.0.4
-      ps-tree: 1.2.0
-      shell-quote: 1.7.2
-      which: 1.3.1
     dev: true
 
   /npm-run-path/4.0.1:
@@ -2605,12 +2554,6 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /pause-stream/0.0.11:
-    resolution: {integrity: sha1-/lo0sMvOErWqaitAPuLnO2AvFEU=}
-    dependencies:
-      through: 2.3.8
-    dev: true
-
   /picocolors/0.2.1:
     resolution: {integrity: sha512-cMlDqaLEqfSaW8Z7N5Jw+lyIW869EzT73/F5lhtY9cLGoVxSXznfgfXMO0Z5K0o0Q2TkTXq+0KFsdnSe3jDViA==}
     dev: true
@@ -2706,14 +2649,6 @@ packages:
   /progress/2.0.3:
     resolution: {integrity: sha512-7PiHtLll5LdnKIMw100I+8xJXR5gW2QwWYkT6iJva0bXitZKa/XMrSbdmg3r2Xnaidz9Qumd0VPaMrZlF9V9sA==}
     engines: {node: '>=0.4.0'}
-    dev: true
-
-  /ps-tree/1.2.0:
-    resolution: {integrity: sha512-0VnamPPYHl4uaU/nSFeZZpR21QAWRz+sRv4iW9+v/GS/J5U5iZB5BNN6J0RMoOvdx2gWM2+ZFMIm58q24e4UYA==}
-    engines: {node: '>= 0.10'}
-    hasBin: true
-    dependencies:
-      event-stream: 3.3.4
     dev: true
 
   /punycode/2.1.1:
@@ -3004,10 +2939,6 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /shell-quote/1.7.2:
-    resolution: {integrity: sha512-mRz/m/JVscCrkMyPqHc/bczi3OQHkLTqXHEFu0zDhK/qfv3UcOA4SVmRCLmos4bhjr9ekVQubj/R7waKapmiQg==}
-    dev: true
-
   /signal-exit/3.0.5:
     resolution: {integrity: sha512-KWcOiKeQj6ZyXx7zq4YxSMgHRlod4czeBQZrPb8OKcohcqAXShm7E20kEMle9WBt26hFcAf0qLOcp5zmY7kOqQ==}
     dev: true
@@ -3085,12 +3016,6 @@ packages:
     resolution: {integrity: sha512-oie3/+gKf7QtpitB0LYLETe+k8SifzsX4KixvpOsbI6S0kRiRQ5MKOio8eMSAKQ17N06+wdEOXRiId+zOxo0hA==}
     dev: true
 
-  /split/0.3.3:
-    resolution: {integrity: sha1-zQ7qXmOiEd//frDwkcQTPi0N0o8=}
-    dependencies:
-      through: 2.3.8
-    dev: true
-
   /split2/3.2.2:
     resolution: {integrity: sha512-9NThjpgZnifTkJpzTZ7Eue85S49QwpNhZTq6GRJwObb6jnLFNGB7Qm73V5HewTROPyxD0C29xqmaI68bQtV+hg==}
     dependencies:
@@ -3099,12 +3024,6 @@ packages:
 
   /sprintf-js/1.0.3:
     resolution: {integrity: sha1-BOaSb2YolTVPPdAVIDYzuFcpfiw=}
-    dev: true
-
-  /stream-combiner/0.0.4:
-    resolution: {integrity: sha1-TV5DPBhSYd3mI8o/RMWGvPXErRQ=}
-    dependencies:
-      duplexer: 0.1.2
     dev: true
 
   /string-argv/0.3.1:
@@ -3465,13 +3384,6 @@ packages:
       node-localstorage: 0.6.0
       strip-ansi: 3.0.1
       wrap-ansi: 2.1.0
-    dev: true
-
-  /which/1.3.1:
-    resolution: {integrity: sha512-HxJdYWq1MTIQbJ3nw0cqssHoTNU267KlrDuGZ1WYlxDStUtKUhOaJmh112/TZmHxxUfuJqPXSOm7tDyas0OSIQ==}
-    hasBin: true
-    dependencies:
-      isexe: 2.0.0
     dev: true
 
   /which/2.0.2:
