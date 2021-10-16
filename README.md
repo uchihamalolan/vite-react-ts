@@ -47,7 +47,7 @@ degit uchihamalolan/vite-react-ts your-app-name
 ### CSS-in-js
 
 - Emotion
-- Compiled (my personal favorite)
+- Compiled (still in beta)
 
 ### UI Components
 
@@ -69,6 +69,19 @@ degit uchihamalolan/vite-react-ts your-app-name
 
 - Ky
 - Axios
+
+### Global Store (full-blown / lite-version)
+
+- Redux Toolkit / Zustand
+- Recoil / Jotai
+- Mobx / Valtio
+- xstate / robot
+
+### Server State
+
+- React Query
+- swr
+- RTKQuery
 
 <!-- ### Eslint Plugins
 - [eslint-plugin-jest-dom](https://testing-library.com/docs/ecosystem-eslint-plugin-jest-dom)
