@@ -23,7 +23,7 @@
     "prepare": "husky install",
     "commit": "commit",
     "format": "prettier --write --ignore-unknown .",
-    "lint": "eslint --cache",
+    "lint": "eslint --cache ./src",
     "analyze": "source-map-explorer 'dist/assets/*.js'"
   },
   "dependencies": {
