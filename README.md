@@ -47,7 +47,10 @@ degit uchihamalolan/vite-react-ts your-app-name
 ### CSS-in-js
 
 - Emotion
-- Compiled (still in beta)
+- Complie Time Atomic CSS-in-Js
+  - Stylex (Facebook, not Open Source yet)
+  - Linaria
+  - Compiled (still in beta)
 
 ### UI Components
 
