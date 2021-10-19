@@ -37,7 +37,7 @@ degit uchihamalolan/vite-react-ts your-app-name
 
 ---
 
-## Other Plugins that can be added:
+# Other Plugins that can be added:
 
 ### Forms
 
