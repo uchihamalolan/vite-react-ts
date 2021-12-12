@@ -26,14 +26,21 @@ degit uchihamalolan/vite-react-ts your-app-name
 ### Lint and Formatting
 
 - Eslint & Prettier Configured
+- Lints
+  - react
+  - react hooks
+  - typescript
+  - jsx-a11y
 
 ### Testing
 
 - Jest + React Testing Library (plus some plugins)
+- (Can opt for [vittest](https://vitest.dev/) instead once it's stable
 
 ### Styling
 
-- TailwindCSS with JIT enabled
+- TailwindCSS v3
+- (Can even opt for [unocss](https://github.com/antfu/unocss) instead once it's stable
 
 ---
 
@@ -61,6 +68,7 @@ degit uchihamalolan/vite-react-ts your-app-name
 
 - React-Router-Dom
 - Reach-Router
+- React Location
 
 ### Date Manipulation
 
@@ -83,7 +91,7 @@ degit uchihamalolan/vite-react-ts your-app-name
 ### Server State
 
 - React Query
-- swr
+- SWR
 - RTKQuery
 
 <!-- ### Eslint Plugins
