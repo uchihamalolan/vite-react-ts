@@ -1,4 +1,4 @@
-# Starter
+# Every feature that is present in [CRA](http://create-react-app.dev/) but powered by [Vite](https://vitejs.dev/)
 
 ### Usage (with [degit](https://github.com/Rich-Harris/degit))
 
