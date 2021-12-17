@@ -5,3 +5,4 @@ dist-ssr
 *.local
 coverage
 .eslintcache
+pnpm-lock.yaml
