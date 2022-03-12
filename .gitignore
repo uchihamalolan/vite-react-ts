@@ -6,3 +6,4 @@ dist-ssr
 coverage
 .eslintcache
 pnpm-lock.yaml
+*.log
