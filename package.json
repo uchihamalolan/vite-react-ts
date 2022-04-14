@@ -29,7 +29,8 @@
   "dependencies": {
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-    "react-error-boundary": "^3.1.4"
+    "react-error-boundary": "^3.1.4",
+    "vite-plugin-svgr": "^1.1.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^16.2.3",
