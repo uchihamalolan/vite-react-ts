@@ -17,16 +17,13 @@
     {
       "files": ["**/*.ts?(x)"],
       "parser": "@typescript-eslint/parser",
-      "extends": [
-        "plugin:@typescript-eslint/recommended",
-        "plugin:import/typescript"
-      ]
+      "extends": ["plugin:@typescript-eslint/recommended", "plugin:import/typescript"]
     }
   ],
   "rules": {
     // for testing if eslint works properly,
     // feel free to remove this if you do not need it
-    "import/no-unused-modules": [1, {"unusedExports": true}]
+    "import/no-unused-modules": [1, { "unusedExports": true }]
   },
   "settings": {
     "import/parsers": {
