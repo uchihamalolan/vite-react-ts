@@ -1,30 +1,43 @@
-# Every feature that is present in [CRA](http://create-react-app.dev/) but powered by [Vite](https://vitejs.dev/)
+# Drop-in Replacement for [CRA](http://create-react-app.dev/) but powered by [Vite](https://vitejs.dev/)
+
+### Things in CRA, supported here:
+- Import SVG's directly as React Component via SVGR
+- Unit Testing via Jest & React Testing Library
+- ESLint Rules & Prettier
+- Tailwind
+- Absolute imports within `src` directory
+
+---
+
+### Extra Additions
+- Conventional Commits using `Commitlint`
+- Run Lint Checks, TS Checks, Formatting & Unit Tests  in Pre-commit via `lintstaged` & `husky`
+
+---
 
 ### Usage (with [degit](https://github.com/Rich-Harris/degit))
-
 ```bash
 degit uchihamalolan/vite-react-ts your-app-name
 ```
 
-### Overview
+---
 
+### Tech Stack - Overview
 - Vite
 - React - Typscript
   - react-error-boundary
 - pnpm
+
+---
 
 ### Editor Config
 
 - vscode settings & extension recommendations
 - `.editorconfig` file
 
-### Git Hooks
-
-- Husky & Lint Staged
-- Runs prettier, eslint & jest @ precommit
+---
 
 ### Lint and Formatting
-
 - Eslint & Prettier Configured
 - Lints
   - react
@@ -32,64 +45,51 @@ degit uchihamalolan/vite-react-ts your-app-name
   - typescript
   - jsx-a11y
 
+---
+
 ### Testing
-
 - Jest + React Testing Library (plus some plugins)
-- (Can opt for [vittest](https://vitest.dev/) instead once it's stable
-
-### Styling
-
-- TailwindCSS v3
-- (Can even opt for [unocss](https://github.com/antfu/unocss) instead once it's stable
 
 ---
 
-# Other Plugins that can be added:
+### Styling
+- TailwindCSS v3
+
+---
+
+# Other Recommended Libraries:
 
 ### Forms
-
 - React Hook Form
 - Zod (for validations)
 
 ### CSS-in-js
-
 - Emotion
 - Complie Time Atomic CSS-in-Js
   - Stylex (Facebook, not Open Source yet)
   - Linaria
   - Compiled (still in beta)
 
-### UI Components
-
-- Ant Design
-- Material UI
-
 ### Routing
-
 - React-Router-Dom
-- Reach-Router
 - React Location
 
 ### Date Manipulation
-
 - Dayjs
 - date-fns
 - Luxon
 
 ### HTTP Client
-
 - Ky
 - Axios
 
 ### Global Store (full-blown / lite-version)
-
 - Redux Toolkit / Zustand
 - Recoil / Jotai
 - Mobx / Valtio
 - xstate / robot
 
 ### Server State
-
 - React Query
 - SWR
 - RTKQuery
