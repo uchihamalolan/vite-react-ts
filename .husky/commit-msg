@@ -1,5 +1,5 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-pnpx --no-install commitlint --edit
-pnpx --no-install commitlint --edit $1
+pnpm exec commitlint --edit
+pnpm exec commitlint --edit $1
